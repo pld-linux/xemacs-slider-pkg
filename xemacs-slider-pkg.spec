@@ -2,7 +2,7 @@ Summary:	User interface tool
 Summary(pl):	User interface tool
 Name:		xemacs-slider-pkg
 %define 	srcname	slider
-Version:	1.11
+Version:	1.12
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
