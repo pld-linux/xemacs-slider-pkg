@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 User interface tool.
 
-%description -l pl 
+%description -l pl
 Narzêdzie do interfejsu u¿ytkownika.
 
 %prep
@@ -28,14 +28,14 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/slider/ChangeLog 
+gzip -9nf lisp/slider/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/slider/ChangeLog.gz 
+%doc lisp/slider/ChangeLog.gz
 %{_datadir}/xemacs-packages%{_sysconfdir}/*
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
