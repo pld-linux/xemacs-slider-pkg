@@ -1,5 +1,5 @@
 Summary:	User interface tool
-Summary(pl):	Narzêdzie do interfejsu u¿ytkownika
+Summary(pl.UTF-8):   NarzÄ™dzie do interfejsu uÅ¼ytkownika
 Name:		xemacs-slider-pkg
 %define 	srcname	slider
 Version:	1.15
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 User interface tool.
 
-%description -l pl
-Narzêdzie do interfejsu u¿ytkownika.
+%description -l pl.UTF-8
+NarzÄ™dzie do interfejsu uÅ¼ytkownika.
 
 %prep
 %setup -q -c
