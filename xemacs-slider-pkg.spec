@@ -1,5 +1,5 @@
 Summary:	User interface tool
-Summary(pl.UTF-8):   Narzędzie do interfejsu użytkownika
+Summary(pl.UTF-8):	Narzędzie do interfejsu użytkownika
 Name:		xemacs-slider-pkg
 %define 	srcname	slider
 Version:	1.15
