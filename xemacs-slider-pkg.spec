@@ -2,13 +2,13 @@ Summary:	User interface tool
 Summary(pl.UTF-8):	Narzędzie do interfejsu użytkownika
 Name:		xemacs-slider-pkg
 %define 	srcname	slider
-Version:	1.16
+Version:	1.18
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	023100ab8df27f606c8532c5c9ab2f9f
-URL:		http://www.xemacs.org/
+Source0:	http://ftp.xemacs.org/pub/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+# Source0-md5:	b5786046fa37c00e24f6712c5008c1d3
+URL:		https://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
 Requires:	xemacs
